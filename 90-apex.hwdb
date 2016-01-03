@@ -1,0 +1,17 @@
+# /etc/udev/hwdb.d/90-apex.hwdb
+# sudo udevadm hwdb --update
+# sudo udevadm control --reload
+
+keyboard:usb:v1038p1600*
+ KEYBOARD_KEY_0700e8=prog1            #circle0
+ KEYBOARD_KEY_0700e9=prog2            #circle1
+ KEYBOARD_KEY_0700ea=prog3            #circle2
+ KEYBOARD_KEY_0700eb=prog4            #circle3
+ KEYBOARD_KEY_0700ec=f13              #circle4
+ KEYBOARD_KEY_0700ed=f14              #circle5
+ KEYBOARD_KEY_0c00e2=mute             #SS+F7
+ KEYBOARD_KEY_0c00e9=volumeup         #SS+F8
+ KEYBOARD_KEY_0c00ea=volumedown       #SS+F9
+ KEYBOARD_KEY_0c00b6=previoussong     #SS+F10
+ KEYBOARD_KEY_0c00b5=nextsong         #SS+F11
+ KEYBOARD_KEY_0c00cd=playpause        #SS+F12
