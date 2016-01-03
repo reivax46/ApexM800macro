@@ -1,6 +1,9 @@
-# /etc/udev/hwdb.d/90-apex.hwdb
+# this file goes to /etc/udev/hwdb.d/90-apex.hwdb
 # sudo udevadm hwdb --update
 # sudo udevadm control --reload
+# unplug and replug the keyboard
+
+# Steelseries APEX M800
 
 keyboard:usb:v1038p1600*
  KEYBOARD_KEY_0700e8=prog1            #circle0
