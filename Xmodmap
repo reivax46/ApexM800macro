@@ -1,6 +1,6 @@
-! ~/.Xmodmap
+! /etc/X11/Xmodmap
 ! maps keycodes to keysyms for Steelseries APEX M800 circle keys support
-! run xmodmap ~/.Xmodmap after file creation for instant mapping
+! run xmodmap /etc/X11/Xmodmap after file creation for instant mapping
 
 keycode 191 = F13
 keycode 192 = F14
