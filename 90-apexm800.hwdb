@@ -1,4 +1,4 @@
-# this file goes to /etc/udev/hwdb.d/90-apex.hwdb
+# this file goes to /etc/udev/hwdb.d/90-apexm800.hwdb
 # sudo udevadm hwdb --update
 # sudo udevadm control --reload
 # unplug and replug the keyboard
