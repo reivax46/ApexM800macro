@@ -1,5 +1,0 @@
-#!/bin/bash
-# this file goes to ~/bin/mapkeys and must be executable
-
-[ -f ~/.xmodmaprc ] && (xmodmap ~/.xmodmaprc)
-exit 0;
