@@ -1,3 +1,0 @@
-# this file goes to /etc/udev/rules.d/90-apexm800.rules
-
-ACTION=="add", ATTRS{idVendor}=="1038", ATTRS{idProduct}=="1600", RUN+="~/bin/mapkeys"
